@@ -49,8 +49,11 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="linkedin" /></a>
+                
                 <a href="https://github.com/vishalmakhiijani/"><img src={navIcon2} alt="github" /></a>
+              </div>
+              <div id="linkedin">
+                <a href="#" id="linkedin"><img src={navIcon1} alt="linkedin" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
