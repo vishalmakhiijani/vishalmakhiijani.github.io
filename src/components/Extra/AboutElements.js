@@ -1,3 +1,4 @@
+import styled from 'styled-components';
 export const Technologies = styled.div`
   display: flex;
   flex-wrap: wrap;
