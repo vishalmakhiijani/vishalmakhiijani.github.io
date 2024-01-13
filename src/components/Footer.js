@@ -18,7 +18,7 @@ export const Footer = () => {
               <a href="https://github.com/vishalmakhiijani/"><img src={github} alt="Icon" /></a>
             </div>
             <div id="linkedin">
-              <a href="#"><img src={linkedin} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/vishalmakhijani/"><img src={linkedin} alt="Icon" /></a>
             </div>
             <p>Copyright© {new Date().getFullYear()}. All Rights Reserved</p>
             <p>Made with ❤️ By <span className="credits"><a href="https://github.com/vishalmakhiijani/">Vishal Makhiijani</a></span></p>
