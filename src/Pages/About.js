@@ -6,63 +6,37 @@ import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import Image from 'react-bootstrap/Image';
 
 export const About = () => {
 
-  const Abouts = [
-    {
-      title: "DKM LAW GROUP",
-      description: "Design & Development",
-      imgUrl: projImg1,
-      btn:"github.com",
-    },
-    {
-      title: "SCRAP COLLECTOR",
-      description: "Design & Development",
-      imgUrl: projImg2,
-      btn:"github.com",
-    },
-    {
-      title: "TASTY TIPS",
-      description: "Design & Development",
-      imgUrl: projImg3,
-      btn:"github.com",
-    },
-    {
-      title: "SPEEDY RENTAL",
-      description: "Design & Development",
-      imgUrl: projImg1,
-      btn:"github.com",
-    },
-  ];
 
   return (
-    <section className="project" id="projects">
+    <section className="about" id="about">
       <Container>
         <Row>
           <Col size={12}>
             <TrackVisibility>
               <div className={"animate__animated animate__fadeIn"}>
-                <h2>About</h2>
-                <p>Dive into my digital portfolio! Discover a collection of innovative projects, each a testament to creativity and problem-solving. All projects come with open-source wings on GitHub, inviting you to explore the code, collaborate, and join the journey. Welcome to a world of possibilities – welcome to my Projects Section!</p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Tab.Content id="slideInUp" className={"animate__animated animate__slideInUp"}>
-                    <Tab.Pane eventKey="first">
-                      <Row>
-                        {
-                          Abouts.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                    </Tab.Pane>
-                  </Tab.Content>
-                </Tab.Container>
+                <h2>About Me</h2>
+                <Col xs={6} md={4}>
+                        <p><Image src={projImg1}  className="author-image"/></p>
+                        </Col>
+                <p>Hello! My name is Pedro Muniz. I'm originally from Brazil and have been living in Canada for the past three years. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability.</p>
+                <p>My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Systems Technology program. Despite its challenges, I remained determined and forged lasting friendships that supported me throughout this demanding program. Throughout my studies at BCIT, I had the opportunity to engage in fascinating projects. Notably, I contributed to the development of the RENR Safety App and MyMind, projects that garnered recognition from my colleagues, instructors, and clients alike.</p>
+                <p>Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development and cross-platform mobile development.</p>
+                <p>I have become confident using the following technologies</p>
+                {/* <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                    <Tab.Content id="slideInUp" className={"animate__animated animate__slideInUp"}>
+                      <Tab.Pane eventKey="first">
+                        <Row>
+                        <Col xs={6} md={4}>
+                        <Image src={projImg1}  className="author-image"/>
+                        </Col>
+                        </Row>
+                      </Tab.Pane>
+                    </Tab.Content>
+                  </Tab.Container> */}
               </div>
             </TrackVisibility>
           </Col>
