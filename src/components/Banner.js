@@ -46,6 +46,13 @@ export const Banner = () => {
       setIndex(prevIndex => prevIndex + 1);
     }
   }
+  const sendtoLinkedin = () =>{
+    // Change the URL to the desired external website
+    const externalWebsiteUrl = 'https://www.linkedin.com/in/vishalmakhijani/';
+
+    // Use window.open to open the link in a new tab
+    window.open(externalWebsiteUrl, '_blank');
+  }
 
   return (
     <section className="banner" id="home">
@@ -58,7 +65,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi!👋 I'm Vishal Makhijani`}</h1> 
                 <h5><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "A Full-Stack Developer.","A Aptech Graduate","A problem solver.","An innovative thinker.","A....","A.... cool guy?","Ok...","Ok...  I am running out of ideas...","Uhh...","Uhh... you can scroll down to see my projects now...","Seriously, my projects are really cool, go check them out!","You are uh...","You are uh... still here?","Ok, this has been fun, but I am gonna restart the loop now...","Or...","Or... I could scroll you by force! Muahaha!","See ya! :)","Nah I am Just Kidding","Or am I......","Okay now I am out of ideas","Restarting the loop"]'><span className="wrap">{text}</span></span></h5>
-                <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <button onClick={sendtoLinkedin}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
