@@ -12,27 +12,31 @@ export const Projects = () => {
   const projects = [
     {
       title: "DKM LAW GROUP",
-      description: "Design & Development",
+      description: "Web application Using PHP used for hiring lawyers Online",
       imgUrl: projImg1,
-      btn:"github.com",
+      btn:"https://github.com/vishalmakhiijani/DKM-Law-group",
     },
     {
       title: "SCRAP COLLECTOR",
-      description: "Design & Development",
+      description: "Android Application Using Java Used For getting current prices for scrap material and collection",
       imgUrl: projImg2,
-      btn:"github.com",
     },
     {
       title: "TASTY TIPS",
-      description: "Design & Development",
+      description: "Android Application Using Java, Spoonacular API used for searching Recipies",
       imgUrl: projImg3,
-      btn:"github.com",
+      btn:"https://github.com/vishalmakhiijani/food-recipe-android-app",
     },
     {
       title: "SPEEDY RENTAL",
-      description: "Design & Development",
+      description: "Web Application Using Django used for renting vehicles",
       imgUrl: projImg1,
-      btn:"github.com",
+      btn:"https://github.com/vishalmakhiijani/Speedy-Rental",
+    },{
+      title: "GYM MANAGEMENT",
+      description: "Web Application using Django (Contributed) Used for Managing GYM.",
+      imgUrl: projImg1,
+      btn:"https://github.com/vishalmakhiijani/Speedy-Rental",
     },
   ];
 
@@ -43,7 +47,7 @@ export const Projects = () => {
           <Col size={12}>
             <TrackVisibility>
               <div className={"animate__animated animate__fadeIn"}>
-                <h2>Projects</h2>
+                <h2>My Projects</h2>
                 <p>Dive into my digital portfolio! Discover a collection of innovative projects, each a testament to creativity and problem-solving. All projects come with open-source wings on GitHub, inviting you to explore the code, collaborate, and join the journey. Welcome to a world of possibilities – welcome to my Projects Section!</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Tab.Content id="slideInUp" className={"animate__animated animate__slideInUp"}>

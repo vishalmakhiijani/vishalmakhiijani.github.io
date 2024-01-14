@@ -520,6 +520,37 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.project-btn{
+position: absolute;
+width: 100%;
+}
+
+.pbtn{
+  background: none;
+  padding: 10px 20px;
+  font-family: "Centra";
+  cursor: pointer;
+  margin-top: 5px;
+  transition: color 0.4s linear;
+  overflow: hidden;
+  text-transform: uppercase;
+  position: relative;
+}
+.btn-span:hover{
+  color: #fff;
+  
+}
+.btn-span{
+  transition: color 0.4s linear;
+}
+
+.btn-span::before{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  transition: transform 0.5s;
+}
 
 /************ About Css ************/
 .about {
