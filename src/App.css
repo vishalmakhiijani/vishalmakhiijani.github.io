@@ -398,7 +398,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: linear-gradient(90deg, rgba(70,22,56,1) 0%, rgba(107,50,165,1) 46%, rgba(172,53,126,1) 100%);
 }
 .project h2 {
 	font-size: 45px;
@@ -685,7 +685,7 @@ width: 100%;
 } */
 /************ Conact Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(167deg, rgba(84,28,60,1) 0%, rgba(82,46,178,1) 100%);
   padding: 60px 0 200px 0;
 }
 .contact img {
