@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projDKM from "../assets/img/DKM.png";
+import projGYM from "../assets/img/gym.gif";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -13,13 +13,8 @@ export const Projects = () => {
     {
       title: "DKM LAW GROUP",
       description: "Web application Using PHP used for hiring lawyers Online",
-      imgUrl: projImg1,
+      imgUrl: projDKM,
       btn:"https://github.com/vishalmakhiijani/DKM-Law-group",
-    },
-    {
-      title: "SCRAP COLLECTOR",
-      description: "Android Application Using Java Used For getting current prices for scrap material and collection",
-      imgUrl: projImg2,
     },
     {
       title: "TASTY TIPS",
@@ -30,12 +25,12 @@ export const Projects = () => {
     {
       title: "SPEEDY RENTAL",
       description: "Web Application Using Django used for renting vehicles",
-      imgUrl: projImg1,
+      imgUrl: projGYM,
       btn:"https://github.com/vishalmakhiijani/Speedy-Rental",
     },{
       title: "GYM MANAGEMENT",
       description: "Web Application using Django (Contributed) Used for Managing GYM.",
-      imgUrl: projImg1,
+      imgUrl: projGYM,
       btn:"https://github.com/vishalmakhiijani/Speedy-Rental",
     },
   ];
