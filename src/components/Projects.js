@@ -42,8 +42,15 @@ export const Projects = () => {
           <Col size={12}>
             <TrackVisibility>
               <div className={"animate__animated animate__fadeIn"}>
-                <h2>My Projects</h2>
-                <p>Dive into my digital portfolio! Discover a collection of innovative projects, each a testament to creativity and problem-solving. All projects come with open-source wings on GitHub, inviting you to explore the code, collaborate, and join the journey. Welcome to a world of possibilities – welcome to my Projects Section!</p>
+                <section className="scroll-reveal">
+                  <h2 className="section-title"><span> My Projects </span></h2>
+                  <p>
+                    <span>Dive into my digital portfolio! Discover a collection of innovative projects, each a testament to
+                       creativity and problem-solving. All projects come with open-source wings on GitHub, inviting you to
+                        explore the code, collaborate, and join the journey. Welcome to a world of possibilities – welcome
+                         to my Projects Section!</span>
+                  </p>
+                </section>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Tab.Content id="slideInUp" className={"animate__animated animate__slideInUp"}>
                     <Tab.Pane eventKey="first">

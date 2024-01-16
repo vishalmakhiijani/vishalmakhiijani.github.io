@@ -10,14 +10,16 @@ export const ProjectCard = ({ title, description, imgUrl, btn }) => {
           <h4>{title}</h4>
           <span>{description}</span>
         </div>
-        {btn && (
+       
           <a href={btn} target="_blank" rel="noopener noreferrer">
             <button className="project-btn pbtn">
               <span className="btn-span">Show Project </span>
             </button>
           </a>
-        )}
+       
       </div>
     </Col>
   );
 };
+
+
