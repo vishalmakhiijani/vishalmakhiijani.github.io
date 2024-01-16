@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.202c664b.css",
-    "main.js": "/react-portfolio/static/js/main.e0d656ca.js",
-    "static/js/787.7762de1b.chunk.js": "/react-portfolio/static/js/787.7762de1b.chunk.js",
-    "static/media/gym.gif": "/react-portfolio/static/media/gym.2692cfefcea0e2649d93.gif",
-    "static/media/DKM.png": "/react-portfolio/static/media/DKM.994674639dde35756d16.png",
-    "static/media/color-sharp2.png": "/react-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
-    "static/media/banner-bg.png": "/react-portfolio/static/media/banner-bg.cc1273af450504afe755.png",
-    "static/media/logo.png": "/react-portfolio/static/media/logo.886565a21675dad78aeb.png",
-    "static/media/header-img.svg": "/react-portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
-    "static/media/CentraNo2-Bold.ttf": "/react-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
-    "static/media/CentraNo2-Medium.ttf": "/react-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
-    "static/media/CentraNo2-Book.ttf": "/react-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/footer-bg.png": "/react-portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
-    "static/media/project-img3.png": "/react-portfolio/static/media/project-img3.675b30d2f975a1bc1d09.png",
-    "static/media/contact-img.svg": "/react-portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
-    "index.html": "/react-portfolio/index.html",
-    "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.202c664b.css.map": "/react-portfolio/static/css/main.202c664b.css.map",
-    "main.e0d656ca.js.map": "/react-portfolio/static/js/main.e0d656ca.js.map",
-    "787.7762de1b.chunk.js.map": "/react-portfolio/static/js/787.7762de1b.chunk.js.map"
+    "main.css": "/static/css/main.c6a8e007.css",
+    "main.js": "/static/js/main.876f984d.js",
+    "static/js/787.7762de1b.chunk.js": "/static/js/787.7762de1b.chunk.js",
+    "static/media/gym.gif": "/static/media/gym.2692cfefcea0e2649d93.gif",
+    "static/media/DKM.png": "/static/media/DKM.994674639dde35756d16.png",
+    "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/logo.png": "/static/media/logo.886565a21675dad78aeb.png",
+    "static/media/header-img.svg": "/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/project-img3.png": "/static/media/project-img3.675b30d2f975a1bc1d09.png",
+    "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.c6a8e007.css.map": "/static/css/main.c6a8e007.css.map",
+    "main.876f984d.js.map": "/static/js/main.876f984d.js.map",
+    "787.7762de1b.chunk.js.map": "/static/js/787.7762de1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.202c664b.css",
-    "static/js/main.e0d656ca.js"
+    "static/css/main.c6a8e007.css",
+    "static/js/main.876f984d.js"
   ]
 }
