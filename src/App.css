@@ -668,7 +668,7 @@ width: 100%;
 	font-weight: 700;
   margin-bottom: 30px;
 }
-.contact form input, .contact form textarea {
+.contact form input, .contact form textarea,.telinput {
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -681,11 +681,11 @@ width: 100%;
   letter-spacing: 0.8px;
   transition: 0.3s ease-in-out;
 }
-.contact form input:focus, .contact form textarea:focus {
+.contact form input:focus,.telinput,.telinput, .contact form textarea:focus {
   background: rgba(255, 255, 255, 1);
   color: #121212;
 }
-.contact form input::placeholder, .contact form textarea::placeholder {
+.contact form input::placeholder,.telinput, .contact form textarea::placeholder {
   font-size: 16px;
   font-weight: 400;
   color: #fff;
