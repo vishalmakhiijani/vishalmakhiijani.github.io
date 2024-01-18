@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import Swal from 'sweetalert2'
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -37,9 +38,52 @@ export const Contact = () => {
     let result = await response.json();
     setFormDetails(formInitialDetails);
     if (result.code == 200) {
-      setStatus({ succes: true, message: 'Message sent successfully'});
+      setStatus({ succes: true});
+      Swal.fire({
+        title: 'Success!',
+        text:'Message sent successfullyy',
+        icon: 'success',
+        confirmButtonText: 'OK',
+        timer: 3000, // Auto close after 3 seconds
+        timerProgressBar: true,
+        showClass: {
+          popup: `
+            animate__animated
+            animate__zoomInUp
+            animate__faster
+          `
+        },
+        hideClass: {
+          popup: `
+            animate__animated
+            animate__zoomOutDown
+            animate__faster
+          `
+        }
+      });
     } else {
       setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
+      Swal.fire({
+        title: 'Something went wrong, please try again later.',
+        icon: 'error',
+        confirmButtonText: 'OK',
+        timer: 3000, // Auto close after 3 seconds
+        timerProgressBar: true,
+        showClass: {
+          popup: `
+            animate__animated
+            animate__zoomInUp
+            animate__faster
+          `
+        },
+        hideClass: {
+          popup: `
+            animate__animated
+            animate__zoomOutDown
+            animate__faster
+          `
+        }
+      });
     }
   };
 

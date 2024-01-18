@@ -13,7 +13,6 @@ app.listen(3000, () => console.log("Server Running"));
 console.log(process.env.EMAIL_ADDRESS);
 console.log(process.env.EMAIL_PASS);
 
-// const PORT =process.env.PORT || 3000;
 
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
@@ -40,7 +39,7 @@ router.post("/contact", (req, res) => {
   const phone = req.body.phone;
   const mail = {
     from: name,
-    to: "pubglinkfresh@gmail.com",
+    to: "vk4562000@gmail.com",
     subject: "Contact Form Submission - Portfolio",
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
