@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projDKM from "../assets/img/DKM.png";
 import projGYM from "../assets/img/gym.gif";
-import projImg3 from "../assets/img/project-img3.png";
+import noimg from "../assets/img/Image_not_available.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -19,13 +19,13 @@ export const Projects = () => {
     {
       title: "TASTY TIPS",
       description: "Android Application Using Java, Spoonacular API used for searching Recipies",
-      imgUrl: projImg3,
+      imgUrl: noimg,
       btn:"https://github.com/vishalmakhiijani/food-recipe-android-app",
     },
     {
       title: "SPEEDY RENTAL",
       description: "Web Application Using Django used for renting vehicles",
-      imgUrl: projGYM,
+      imgUrl: noimg,
       btn:"https://github.com/vishalmakhiijani/Speedy-Rental",
     },{
       title: "GYM MANAGEMENT",
