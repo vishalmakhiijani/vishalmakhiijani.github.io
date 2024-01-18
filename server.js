@@ -107,7 +107,7 @@ contactEmail.verify((error) => {
 });
 
 router.post("/contact", (req, res) => {
-  const name = req.body.firstName + req.body.lastName;
+  const name = req.body.firstName +" "+ req.body.lastName;
   const email = req.body.email;
   const message = req.body.message;
   const phone = req.body.phone;
@@ -137,7 +137,7 @@ router.post("/contact", (req, res) => {
 
 function sendThankYouEmail(email,name) {
   const thankYouMail = {
-    from: 'your-email@gmail.com',
+    from: 'vk4562000@gmail.com',
     to: email,
     subject: 'Thank You for Contacting Me',
     html: `
