@@ -4,7 +4,7 @@ import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Projects } from "./components/Projects";
 import { About } from "./components/About";
-import { Contact } from "./components/Contact";
+// import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import  GoToTop  from "./components/Extra/GoToTop";
 import React,{useEffect} from 'react';
@@ -22,7 +22,7 @@ function App() {
       <Banner />
       <Projects />
       <About />
-      <Contact />
+      {/* <Contact /> */}
       <GoToTop/>
       <Footer />
     </div>

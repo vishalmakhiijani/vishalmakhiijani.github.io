@@ -15,6 +15,28 @@
 	font-weight: 400;
 }
 
+@font-face {
+	font-family: Caveat-Bold;
+	src: url('./assets/font/Caveat-Bold.ttf');
+	font-weight: 400;
+}
+@font-face {
+	font-family: Caveat-Medium;
+	src: url('./assets/font/Caveat-Medium.ttf');
+	font-weight: 400;
+}
+@font-face {
+	font-family: Caveat-Regular;
+	src: url('./assets/font/Caveat-Regular.ttf');
+	font-weight: 400;
+}
+@font-face {
+	font-family: Caveat-SemiBold;
+	src: url('./assets/font/Caveat-SemiBold.ttf');
+	font-weight: 400;
+}
+
+
 /************ Default Css ************/
 * {
   margin: 0;
@@ -310,6 +332,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+}
+
+.banner #author_name{
+  font-family: Caveat-Bold;
+  font-weight: 400;
+  text-decoration: underline;
 }
 .banner p {
   color: #B8B8B8;
@@ -608,6 +636,13 @@ width: 100%;
   margin: 14px auto 30px auto;
   text-align: center;
   width: 56%;
+}
+
+@media screen and (max-width:1205px) {
+  .about p {
+    width: 90%;
+  }
+  
 }
 .author-image{
   border-radius: 50%;
