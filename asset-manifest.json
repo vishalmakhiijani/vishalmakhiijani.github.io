@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.385b0d69.css",
-    "main.js": "/static/js/main.0c09ef75.js",
+    "main.css": "/static/css/main.de4b0277.css",
+    "main.js": "/static/js/main.da068a66.js",
     "static/js/787.7762de1b.chunk.js": "/static/js/787.7762de1b.chunk.js",
     "static/media/gym.gif": "/static/media/gym.2692cfefcea0e2649d93.gif",
     "static/media/DKM.png": "/static/media/DKM.994674639dde35756d16.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/Caveat-SemiBold.ttf": "/static/media/Caveat-SemiBold.d22864b4c88c0e98cda2.ttf",
+    "static/media/Caveat-Medium.ttf": "/static/media/Caveat-Medium.a661a40777402bb8c6ff.ttf",
+    "static/media/Caveat-Bold.ttf": "/static/media/Caveat-Bold.b4c2105c3a62bce010d1.ttf",
+    "static/media/Caveat-Regular.ttf": "/static/media/Caveat-Regular.419940188ab4de524042.ttf",
     "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/logo.png": "/static/media/logo.886565a21675dad78aeb.png",
     "static/media/header-img.svg": "/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
@@ -13,16 +17,15 @@
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
-    "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/Image_not_available.png": "/static/media/Image_not_available.340253f993a2e5ca3a42.png",
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.385b0d69.css.map": "/static/css/main.385b0d69.css.map",
-    "main.0c09ef75.js.map": "/static/js/main.0c09ef75.js.map",
+    "main.de4b0277.css.map": "/static/css/main.de4b0277.css.map",
+    "main.da068a66.js.map": "/static/js/main.da068a66.js.map",
     "787.7762de1b.chunk.js.map": "/static/js/787.7762de1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.385b0d69.css",
-    "static/js/main.0c09ef75.js"
+    "static/css/main.de4b0277.css",
+    "static/js/main.da068a66.js"
   ]
 }
